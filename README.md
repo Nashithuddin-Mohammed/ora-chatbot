@@ -5,8 +5,12 @@
 ---
 
 ## 🌐 Live Demo
-👉 [Click here to view the live app](#) *(link will be added after deployment)*
+👉 [Click here to view the live app](https://ora-chatbot-hnm59zgfc-me-0086.vercel.app)
 
+| Service | URL |
+|---------|-----|
+| Frontend | https://ora-chatbot-hnm59zgfc-me-0086.vercel.app |
+| Backend API | https://ora-chatbot-backend.onrender.com/api/health |
 ---
 
 ## ✨ Features
