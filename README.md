@@ -162,12 +162,4 @@ Frontend runs at: `http://localhost:3000`
 
 ---
 
-## 👨‍💻 Author
-
-**Nashithuddin Mohammed**
-MS Computer Science — Chicago State University (4.0 GPA)
-[GitHub](https://github.com/Nashithuddin-Mohammed) | [LinkedIn](https://www.linkedin.com/in/nashithuddin-mohammed-1685b4216)
-
----
-
 > **Note:** Backend is hosted on Render's free tier and may take ~30 seconds to wake up on first request after inactivity.
