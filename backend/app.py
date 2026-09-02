@@ -1,5 +1,6 @@
 import os
 import requests
+import re
 from flask import Flask, request, jsonify, Response, stream_with_context
 from flask_cors import CORS
 from dotenv import load_dotenv
@@ -10,7 +11,7 @@ app = Flask(__name__)
 CORS(app, origins=[
     "http://localhost:3000",
     "https://ora-chatbot.vercel.app",
-    "https://ora-chatbot-7dv7y7n8o-me-0086.vercel.app"
+    re.compile(r"https://ora-chatbot-.*\.vercel\.app")
 ])
 
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
